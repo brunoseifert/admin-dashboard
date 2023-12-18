@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
       <div
-        className={`flex justify-center items-center mt-[100px] ease-in-out duration-500 ${
+        className={`flex justify-center items-center mt-[70px] ease-in-out duration-500 ${
           open
             ? 'sm: ml-[160px]  md:ml-[160px] lg:ml-[160px] xl:ml-[100px] 2xl:ml-0'
             : ''

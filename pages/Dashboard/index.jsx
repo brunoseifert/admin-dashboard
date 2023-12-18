@@ -3,6 +3,7 @@ import CardDates from './CardDates';
 import CollumChart from './ColummChart.jsx';
 import MetricsComp from './MetricsComp';
 import { periodData } from '../../src/data.js';
+import SalesComp from './SalesComp.jsx';
 
 const Dashboard = () => {
   return (
@@ -21,6 +22,7 @@ const Dashboard = () => {
             />
           </div>
         </div>
+        <SalesComp />
       </div>
     </>
   );
