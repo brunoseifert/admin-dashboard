@@ -1,4 +1,3 @@
-import Sidebar from '../../src/components/Common/Sidebar';
 import CardComp from './CardComp';
 import CardDates from './CardDates';
 import CollumChart from './ColummChart.jsx';
@@ -8,12 +7,8 @@ import { periodData } from '../../src/data.js';
 const Dashboard = () => {
   return (
     <>
-      <div className="pt-20">
-        <div className="fixed border-r border-blue-300 h-full w-[200px]">
-          <Sidebar />
-        </div>
-
-        <div className="flex flex-row justify-center gap-4 ml-[200px]">
+      <div>
+        <div className="flex flex-row justify-center gap-4">
           <div className="flex flex-col gap-4">
             <CardComp />
             <MetricsComp />
