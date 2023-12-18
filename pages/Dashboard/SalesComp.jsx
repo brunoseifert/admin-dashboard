@@ -141,7 +141,7 @@ const SalesComp = () => {
   ];
 
   return (
-    <div className="custom-scroll bg-gradient-to-br from-blue-800 to-blue-950 overflow-y-scroll p-4 h-[300px] mb-10">
+    <div className="custom-scroll bg-gradient-to-br from-blue-800 to-blue-950 overflow-y-scroll p-4 h-[300px] ">
       <h2 className="text-2xl font-bold text-white">Vendas recentes</h2>
       <div>
         {recentSales.map((sale, key) => {

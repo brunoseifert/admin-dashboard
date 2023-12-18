@@ -8,9 +8,9 @@ const Sidebar = () => {
         <li className="mb-4 ml-4">Menu</li>
         <div className="flex flex-col gap-4 border-r pr-4">
           <li>
-            <Link to="/usuario" className="flex gap-2 items-center">
+            <Link to="/dashboard" className="flex gap-2 items-center">
               <FontAwesomeIcon icon="fa-solid fa-user" />
-              <span>Usuário</span>
+              <span>Dashboard</span>
             </Link>
           </li>
           <li>
@@ -21,8 +21,8 @@ const Sidebar = () => {
           </li>
           <li>
             <Link to="/e-mail" className="flex gap-2 items-center">
-              <FontAwesomeIcon icon="fa-solid fa-envelope" />
-              <span>E-mail</span>
+              <FontAwesomeIcon icon="fa-solid fa-earth-americas" />
+              <span>Localização</span>
             </Link>
           </li>
           <li>
