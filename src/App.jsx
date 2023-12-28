@@ -6,10 +6,10 @@ import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import './App.css';
 import Dashboard from '../pages/Dashboard/index';
+import CalendarComp from '../pages/Calendar/CalendarComp';
 
 function App() {
   library.add(fas);
-  const [count, setCount] = useState(0);
 
   const [open, setOpen] = useState(false);
 
@@ -23,6 +23,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/dashboard" element={<Dashboard open={open} />} />
+          <Route path="/calendario" element={<CalendarComp />} />
         </Routes>
         <Footer />
       </div>

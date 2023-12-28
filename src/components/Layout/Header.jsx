@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sidebar from './Sidebar';
-import React from 'react';
 
 const Header = ({ open, handleOpen }) => {
   return (
