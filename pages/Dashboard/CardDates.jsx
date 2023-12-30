@@ -4,7 +4,7 @@ const CardDates = () => {
   const reports = [
     {
       title: 'Total de Vendas',
-      value: 'R$ 21.526,80',
+      value: 'R$ 21.526.80',
       icon: <FontAwesomeIcon icon="dollar-sign" />,
       color: 'bg-green-600',
     },

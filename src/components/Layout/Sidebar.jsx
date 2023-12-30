@@ -20,7 +20,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/e-mail" className="flex gap-2 items-center">
+            <Link to="/localizacao" className="flex gap-2 items-center">
               <FontAwesomeIcon icon="fa-solid fa-earth-americas" />
               <span>Localização</span>
             </Link>

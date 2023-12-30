@@ -7,6 +7,7 @@ import Footer from './components/Layout/Footer';
 import './App.css';
 import Dashboard from '../pages/Dashboard/index';
 import CalendarComp from '../pages/Calendar/CalendarComp';
+import LocalizationComp from '../pages/Localizacao/LocalizationComp';
 
 function App() {
   library.add(fas);
@@ -23,7 +24,11 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/dashboard" element={<Dashboard open={open} />} />
-          <Route path="/calendario" element={<CalendarComp />} />
+          <Route path="/calendario" element={<CalendarComp open={open} />} />
+          <Route
+            path="localizacao"
+            element={<LocalizationComp open={open} />}
+          />
         </Routes>
         <Footer />
       </div>
